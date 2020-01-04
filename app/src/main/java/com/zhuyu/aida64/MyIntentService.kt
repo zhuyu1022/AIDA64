@@ -13,7 +13,7 @@ class MyIntentService : IntentService("MyIntentService") {
     val threadTime = 10000L
 
     /**手机进入休眠状态的时间   10分钟**/
-    val sleepTime = 0.5 * 60 * 1000
+    val sleepTime = 5 * 60 * 1000
 
     override fun onHandleIntent(intent: Intent?) {
         var noChargeTime = 0L
